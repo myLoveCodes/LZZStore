@@ -1,0 +1,21 @@
+platform :ios, '9.0'
+
+inhibit_all_warnings!
+target 'LZZStore' do
+    pod 'Bugly'
+    pod 'QQ_MTA'
+    pod 'AFNetworking'
+    pod 'Masonry'
+    pod 'YYCache'
+    pod 'JPush'
+    pod 'ReactiveObjC'
+    pod 'WebViewJavascriptBridge'
+    pod 'MJRefresh'
+    pod 'SDWebImage'
+    pod 'UMCShare/Social/WeChat'
+    pod 'UMCShare/Social/QQ'
+    pod 'MBProgressHUD'
+    pod 'Tangram'
+#    pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+#    pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+end
